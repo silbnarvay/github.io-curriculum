@@ -1,0 +1,138 @@
+body{
+    background-color: #AAA19B;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23AAA19B'/%3E%3Cstop offset='1' stop-color='%23E6DEFF'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1' gradientTransform='rotate(200,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23B1F1FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23B1F1FF' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2' gradientTransform='rotate(360,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23B1F1FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23B1F1FF' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg %3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+#mainNav{
+    margin: 0;
+}
+
+#presentacion img{
+    width: 280px;
+    height: 280px;
+    border-radius: 200px;
+}
+
+
+#sobre-mi p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px 0 100px;
+}
+
+#presentacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#presentacion div{
+    margin: 50px;
+}
+
+
+.about, .formacion, .contacto, .habilidad, #presentacion, #mainNav{
+    
+    padding: 20px;
+}
+
+
+#habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.titulo{
+    text-align: center;
+}
+#habilidades div{
+    padding: 16px;
+    background-color: #FFFFFF;
+    height: 174px;
+    width: 176px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#habilidades i{
+    color: #0d3569;
+}
+
+.logos div{
+    width: 300px;
+    height: 250px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#academias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+.logos div img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contenedor{
+    margin: 15px 0px 15px 0px;
+}
+
+textarea.form-control{
+    height: 250px !important;
+}
+
+#flecha_arriba {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    visibility: hidden;
+    background-color: #31d3f0;
+}
+  
+#flecha_arriba:hover,
+#flecha_arriba:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+footer{
+    text-align: center;
+
+}

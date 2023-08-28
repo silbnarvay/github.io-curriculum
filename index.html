@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html  lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currículum V</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar" id="mainNav">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><img />Silvia Narvay</a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#hardskills">Conocimientos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#softskills">Habilidades</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacto">programmer@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="flecha_arriba">
+            <i class="fa-solid fa-arrow-up fa-2xl"></i>
+        </div>
+        <main class="main">
+            <div class="container-fluid">
+                <div id="presentacion" class="row">
+                    <div>
+                        <h3>Hola, soy Silvia</h3>
+                        <h4>Desarrolladora web Junior</h4>
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul>
+                                <li><a href="https://github.com/silbnarvay"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/silbnarvay02"><i class="fa-brands fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="asset/woman.jpg" alt="foto-perfil"/>
+                    </div>
+                </div>
+                <div id="sobre-mi" class="row about">
+                    <h2 class="titulo">Sobre mí</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div id="hardskills" class="row habilidad">
+                    <h2 class="titulo">Conocimientos</h2>
+                    <div id="habilidades">
+                        <div><i class="fa-brands fa-html5 fa-2x"></i>HTML5</div>
+                        <div><i class="fa-brands fa-css3-alt fa-2x"></i>CSS</div>
+                        <div><i class="fa-brands fa-js-square fa-2x"></i>JavaScript</div>
+                        <div><i class="fa-brands fa-python fa-2x"></i>Python</div>
+                        <div><i class="fa-brands fa-java fa-3x"></i>Java</div>
+                    </div>
+                </div>
+                <div id="softskills" class="row habilidad">
+                    <h2 class="titulo">Habilidades blandas</h2>
+                    <div id="habilidades">
+                        <div><i class="fa-solid fa-comment fa-2x"></i>Comunicación</div>
+                        <div><i class="fa-solid fa-people-group fa-2x"></i>Trabajo en equipo</div>
+                        <div><i class="fa-solid fa-address-book fa-2x"></i>Organización</div>
+                        <div><i class="fa-solid fa-hands-asl-interpreting fa-2x"></i>Ingenio</div>
+                        <div><i class="fa-solid fa-handshake fa-2x"></i>Compromiso</div>
+                    </div>
+                </div>
+                <div id="formacion" class="row formacion">
+                    <h2 class="titulo">Formación Académica</h2>
+                    <div id="academias">
+                        <div class="logos">
+                            <div>
+                                <img src="asset/estudent.jpeg" alt="estudiante"/>
+                            </div>
+                            <p><strong>Estudiante</strong><br>MM</p>
+                        </div>
+                        <div class="logos">
+                            <div>
+                                <img src="asset/University.jpeg" alt="universidad"/>
+                            </div>
+                            <p><strong>Universidad</strong><br>MMXI</p>
+                        </div>
+                        <div class="logos">
+                            <div>
+                                <img src="asset/Cat-programmer.jpeg" alt="programador"/>
+                            </div>
+                            <p><strong>Desarrolladora Web</strong><br>MMXXII- en curso-</p>
+                        </div>
+                    </div>
+                </div>
+                                <div id="contacto" class="row contacto">
+                    <h2 class="titulo">Contacto</h2>
+                    <div>
+                        <p>¿Quiere contactarme?<br>Complete el siguiente formulario y me pondré 
+                            en contacto con usted, lo antes posible.
+                        </p>
+                        <form id="form" name="form">
+                            <div class="form-contenedor">
+                                <label class="form-label">Nombre</label>
+                                <input class="form-control" id="nombre" type="text">
+                            </div>
+                            <div class="form-contenedor"> 
+                                <label class="form-label">E-mail</label>
+                                <input class="form-control" id="email" type="email">
+                            </div>
+                            <div class="form-contenedor">
+                                <input class="form-control" id="asunto" type="text" placeholder="Asunto">
+                            </div>
+                            <div class="form-contenedor">
+                                <textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje"></textarea>
+                            </div>
+                            <button type="submit">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;Derechos reservados 2023</p>
+        </footer>
+        <script src="contacto.js"></script>
+        <script src="boton.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/55f4ab752e.js" crossorigin="anonymous"></script>
+    </body>
+</html>
